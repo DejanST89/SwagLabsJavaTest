@@ -9,7 +9,7 @@ public class InvetoryPage extends BasePage {
  @FindBy(id = "add-to-cart-sauce-labs-backpack")
     WebElement backpack;
  @FindBy(id="add-to-cart-sauce-labs-bike-light")
-    WebElement bikelight;
+    WebElement bikeLight;
  @FindBy(css = "shopping_cart_container span")
  WebElement cart;
 
@@ -17,12 +17,15 @@ public class InvetoryPage extends BasePage {
      this.driver=driver;
              PageFactory.initElements(driver,this);
          }
+         public String Cart(){
+             return cart.getText();
+         }
          public void AddBackpack()
          {
      backpack.click();
          }
          public void AddBikeLight()
          {
-        bikelight.click();
+        bikeLight.click();
          }
 }
