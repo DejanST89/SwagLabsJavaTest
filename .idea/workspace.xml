@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="917cfa22-d53f-4d4d-afac-6ea9db1521e3" name="Changes" comment="Init">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/InventoryTest.java" afterDir="false" />
+    <list default="true" id="917cfa22-d53f-4d4d-afac-6ea9db1521e3" name="Changes" comment="Add">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pagesObject/CheckoutStepPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pagesObject/InvetoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pagesObject/InvetoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/InventoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/InventoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="updateTests" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -41,14 +47,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.InventoryTest.Buy2Products">
+}]]></component>
+  <component name="RunManager" selected="TestNG.InventoryTest.Buy2ProductsEndProcess">
     <configuration name="InventoryTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SwagLab" />
       <extension name="coverage">
@@ -84,6 +91,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InventoryTest.Buy2ProductsEndProcess" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SwagLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.InventoryTest" />
+      <option name="METHOD_NAME" value="Buy2ProductsEndProcess" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest.loginWithNoValidData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SwagLab" />
       <extension name="coverage">
@@ -104,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.InventoryTest.Buy2ProductsEndProcess" />
         <item itemvalue="TestNG.InventoryTest.Buy2Products" />
         <item itemvalue="TestNG.InventoryTest" />
         <item itemvalue="TestNG.LoginTest.loginWithNoValidData" />
@@ -126,11 +152,30 @@
       <option name="project" value="LOCAL" />
       <updated>1679427936761</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add">
+      <created>1680017438293</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680017438293</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add" />
   </component>
 </project>
